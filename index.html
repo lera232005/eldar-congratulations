@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Поздравление Эльдару</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <h1>С полугодом отношений, Бусичка! ❤️</h1>
+    <img src="main-photo.jpg" alt="Главная фотография" class="main-photo">
+
+    <div class="buttons-container">
+      <button onclick="showImage(1)">Наше первое совместное фото 🥰</button>
+      <button onclick="showImage(2)">Ты мой комфортик 🫶🏼</button>
+      <button onclick="showImage(3)">Наши видеозвонки 😂</button>
+      <button onclick="showImage(4)">Долгожданная встреча 🤪</button>
+      <button onclick="showImage(5)">буси с Бусей 😻</button>
+      <button onclick="showImage(6)">Люблю тебя, как Лера Эльдара 💖</button>
+    </div>
+
+    <div id="photo-container" class="hidden">
+      <img id="photo" src="" alt="Фото">
+      <p id="info"></p>
+      <button onclick="hidePhoto()">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
